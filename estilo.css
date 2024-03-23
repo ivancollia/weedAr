@@ -1,0 +1,145 @@
+body{
+    background-color: #f8f9fa;
+}
+section{
+    height: auto;
+    display: flex;
+    text-align: start;
+    color: #000;
+    margin: 50px 0px;
+}
+.inicio{
+    padding: 12vh 2vh;
+    color: #ffffff;
+    height: 100vh;
+    background: url(Archivos/fondeNegroCentro.jpg);
+    background-size: cover;
+}
+section img{
+    width: 25vh;
+    height: 25vh;
+    margin: 0 50px;
+}
+section .info{
+    margin: 0 50px;
+}
+.tierra{
+    position: relative;
+    right: -50px;
+    opacity: 0;
+}
+.efecto-tierra{
+    left: 0px;
+    opacity: 1;
+    transition: 1s linear;
+}
+.planta{
+    transform: scale(0.5);
+    opacity: 0;
+}
+.efecto-planta{
+    transform: scale(1);
+    opacity: 1;
+    transition: 1s linear;
+}
+.cosecha{
+    position: relative;
+    bottom: -80px;
+    opacity: 0;
+}
+.efecto-cosecha{
+    opacity: 1;
+    bottom: 0;
+    transition: 1s linear;
+}
+.plantar{
+    transform: scale(0.5);
+    opacity: 0;
+}
+.efecto-plantar{
+    transform: scale(1);
+    opacity: 1;
+    transition: 1s linear;
+}
+p,li{
+    font-size: 15px;
+}
+a{
+    text-decoration: none;
+    color: #000;
+}
+.footer{
+    text-align: center;
+}
+nav{
+    z-index: 1000;
+  position: fixed !important;
+  top: 0 !important;
+  width: 100%;
+}
+.nav-item{
+    font-size: 20px;
+}
+.fondoNos{
+    background: url(Archivos/fondoNegro.jpg);
+    background-size: cover;
+}
+.fondoCon{
+    background: url(Archivos/hojasGrandes.jpg);
+    background-size: cover;
+}
+.insta{
+    width: 20vh;
+    height: 20vh;
+}
+h1{
+    text-align: center;
+    font-size: 15vh;
+    text-shadow: 0px 10px 40px rgb(0, 255, 10);
+}
+h6{
+    text-align: center;
+}
+@media only screen and (max-width: 768px) {
+    .inicio{
+        background-position: right;
+        background-size: auto;
+    }
+    section{
+        display: block;
+        height: auto;
+        background-size: contain;
+        text-align: center;
+    }
+    ul{
+        padding: 0;
+        margin: 0;
+    }
+    li{
+        text-align: start;
+    }
+    h1{
+        font-size: 5vh;
+    }
+    .fondoNos{
+        background: url(Archivos/fondoNegro.jpg);
+        background-size: cover;
+        background-position: center;
+    }
+    .fondoCon{
+        background: url(Archivos/hojasGrandes.jpg);
+        background-size: cover;
+        background-position: center;
+    }
+    .inicio{
+        padding: 100px;
+        background-size: cover;
+        background-position: center;
+    }
+    h1{
+        font-size: 10vh;
+        text-shadow: 0px 10px 40px rgb(0, 255, 10);
+    }
+    
+    
+}
