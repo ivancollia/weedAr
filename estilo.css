@@ -62,7 +62,7 @@ section .info{
     transition: 1s linear;
 }
 p,li{
-    font-size: 15px;
+    font-size: 2.5vh;
 }
 a{
     text-decoration: none;
@@ -97,9 +97,43 @@ h1{
     font-size: 15vh;
     text-shadow: 0px 10px 40px rgb(0, 255, 10);
 }
-h6{
+h4{
     text-align: center;
 }
+.cultivo{
+    align-self: center;
+    height: 100vh;
+    background: url(Archivos/wallpaperuse.com-hemp-wallpaper-530691.jpg);
+    background-position: center;
+}
+.tituloCultivo{
+    padding: 5vh;
+}
+.pCultivo{
+    font-size: 3vh;
+    padding: 1vh;
+}
+.divCultivo{
+    background: rgba(0, 0, 0, 0.5); /* Fondo negro con 50% de opacidad */
+    color: rgb(255, 255, 255);
+}
+
+.tituloGene{
+    background: url(Archivos/fondoGene.jpg);
+    padding: 12vh 2vh;
+    color: #000000;
+    height: 100vh;
+    background-size: cover;
+}
+.bancos{
+    margin-top: 5vh;
+    padding: 1vh;
+}
+.logoWeed{
+    width: 10vh;
+}
+
+
 @media only screen and (max-width: 768px) {
     .inicio{
         background-position: right;
@@ -141,5 +175,14 @@ h6{
     .insta{
         width: 10vh;
         height: 10vh;
+    }
+    .tituloCultivo{
+        margin-top: 0;
+    }
+    .navbar{
+        --bs-navbar-padding-y: 0;
+    }
+    .genes{
+        padding: 2vh;
     }
 }
